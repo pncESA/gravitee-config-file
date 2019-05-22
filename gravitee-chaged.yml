@@ -75,8 +75,8 @@ management:
     dbname: ${ds.mongodb.dbname}
     host: ${ds.mongodb.host}
     port: ${ds.mongodb.port}
-    username: ${ds.mongodb.username}   ######## uncomment this line and add the username as ${ds.mongodb.username}
-    password: ${ds.mongodb.password}   ######## uncomment this line and add the password as ${ds.mongodb.password}
+    username: ${ds.mongodb.username}   ######## uncomment this line and add the username as ${ds.mongodb.username} ##########
+    password: ${ds.mongodb.password}   ######## uncomment this line and add the password as ${ds.mongodb.password} ##########
 #    connectionsPerHost: 0
 #    connectTimeout: 500
 #    maxWaitTime: 120000
@@ -183,8 +183,8 @@ security:
 #          roles: MANAGEMENT:USER, PORTAL:USER
         - user:
           username: admin 
-          # Password value: *!!/gDXqT"3ja@C?  #### change this passwword
-          password: $2a$10$qJpwtxm0Wf1dONN6Wcn38OVwEdjDdJhxS7LYo8ejeURhqOouQcYuS  #### we encryted the password 
+          # Password value: *!!/gDXqT"3ja@C?  ######### change this passwword ###########
+          password: $2a$10$qJpwtxm0Wf1dONN6Wcn38OVwEdjDdJhxS7LYo8ejeURhqOouQcYuS  #### we encryted the password ##########
           roles: MANAGEMENT:ADMIN, PORTAL:ADMIN
 #        - user:
 #          username: api1
